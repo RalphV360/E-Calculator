@@ -1,0 +1,93 @@
+/* SET BOX-SIZING PROPERTY FOR ALL ELEMENTS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* SET BODY MARGIN TO 0 AND SET BACKGROUND COLOR */
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+/* STYLE THE CALCULATOR CONTAINER */
+.calcase {
+  max-width: 380px;
+  margin: 40px auto;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* STYLE THE CALCULATOR HEADER */
+.calcase header {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* STYLE THE CALCULATOR SCREEN */
+.calcase .screen {
+  background-color: #fff;
+  color: #333;
+  font-size: 32px;
+  text-align: right;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* STYLE THE CALCULATOR BUTTONS CONTAINER */
+.calcase .cal-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* STYLE THE CALCULATOR BUTTON ROWS */
+.calcase .cal-btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* STYLE THE CALCULATOR BUTTONS */
+.calcase .cal-btn {
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #666;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* STYLE THE CALCULATOR'S 2ND CLONE OF THE BUTTON */
+.calcase .two {
+  width: 160px;
+}
+
+/* STYLE THE CALCULATOR'S 3RD CLONE OF THE BUTTON */
+.calcase .three {
+  width: 245px;
+}
+
+/* STYLE THE CALCULATOR BUTTON HOVER STATE */
+.calcase .cal-btn:hover {
+  background-color: #555;
+}
+
+/* STYLE THE CALCULATOR BUTTON ACTIVE STATE */
+.calcase .cal-btn:active {
+  background-color: #444;
+}
